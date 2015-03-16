@@ -48,6 +48,7 @@ module BestInPlace
 
       options[:data]['bip-object'] = opts[:param] || BestInPlace::Utils.object_to_key(real_object)
       options[:data]['bip-ok-button'] = opts[:ok_button].presence
+      options[:data]['mask'] = opts[:mask].presence
       options[:data]['bip-ok-button-class'] = opts[:ok_button_class].presence
       options[:data]['bip-cancel-button'] = opts[:cancel_button].presence
       options[:data]['bip-cancel-button-class'] = opts[:cancel_button_class].presence
